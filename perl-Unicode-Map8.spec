@@ -2,7 +2,7 @@
 
 Name:           perl-Unicode-Map8
 Version:        0.13
-Release:        11%{?dist}
+Release:        13%{?dist}
 
 Summary:        Mapping table between 8-bit chars and Unicode for Perl
 
@@ -67,6 +67,12 @@ make test
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.13-13
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.13-12
+- Mass rebuild 2013-12-27
+
 * Sun Dec 02 2012 Emmanuel Seyman <emmanuel@seyman.fr> - 0.13-11
 - Remove no-longer-used macros
 
